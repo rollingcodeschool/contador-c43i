@@ -1,9 +1,13 @@
 import "./App.css";
+import Titulos from "./components/Titulos";
 
 function App() {
-  return <div>
-    <h1>Primer app con react</h1>
-  </div>;
+  return (
+    <>
+      <Titulos></Titulos>
+      <Titulos/>
+    </>
+  )
 }
 
 export default App;
