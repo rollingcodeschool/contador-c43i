@@ -7,9 +7,9 @@ import Contador from "./components/Contador";
 function App() {
   return (
     <Container>
+      {/* <Titulos/> */}
       <Titulos></Titulos>
       <Contador></Contador>
-      {/* <Titulos/> */}
     </Container>
   )
 }
